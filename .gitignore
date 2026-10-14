@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 密钥与本地配置（仓库内只保留 mcp-config.example.json 这类占位符文件）
+.env
+.env.*
+token
+*.token
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 产物
+*.log
